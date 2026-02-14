@@ -1,0 +1,19 @@
+{
+  "Console Log": {
+    "prefix": "clg",
+    "body": [
+      "console.log(${1});"
+    ],
+    "description": "Console log shortcut"
+  },
+
+  "JS Function": {
+    "prefix": "jsfunc",
+    "body": [
+      "function ${1:functionName}(${2:params}) {",
+      "    ${3}",
+      "}"
+    ],
+    "description": "JavaScript function template"
+  }
+}
