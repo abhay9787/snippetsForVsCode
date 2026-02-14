@@ -1,0 +1,107 @@
+{
+  "HTML Boilerplate": {
+    "prefix": "html5",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "<head>",
+      "    <meta charset=\"UTF-8\">",
+      "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "    <title>${1:Document}</title>",
+      "</head>",
+      "<body>",
+      "    ${2}",
+      "</body>",
+      "</html>"
+    ],
+    "description": "HTML5 basic boilerplate"
+  },
+
+  "CSS Reset": {
+    "prefix": "cssreset",
+    "body": [
+      "* {",
+      "    margin: 0;",
+      "    padding: 0;",
+      "    box-sizing: border-box;",
+      "}"
+    ],
+    "description": "Basic CSS reset"
+  },
+
+  "Flex Center": {
+    "prefix": "flexcenter",
+    "body": [
+      "display: flex;",
+      "justify-content: center;",
+      "align-items: center;"
+    ],
+    "description": "Center content using Flexbox"
+  },
+
+  "JavaScript Console Log": {
+    "prefix": "clg",
+    "body": [
+      "console.log(${1});"
+    ],
+    "description": "Console log shortcut"
+  },
+
+  "JavaScript Function": {
+    "prefix": "jsfunc",
+    "body": [
+      "function ${1:functionName}(${2:params}) {",
+      "    ${3}",
+      "}"
+    ],
+    "description": "JavaScript function template"
+  },
+
+  "Java Main Method": {
+    "prefix": "jmain",
+    "body": [
+      "public class ${1:Main} {",
+      "    public static void main(String[] args) {",
+      "        ${2:// code here}",
+      "    }",
+      "}"
+    ],
+    "description": "Java main class template"
+  },
+
+  "Java For Loop": {
+    "prefix": "jfor",
+    "body": [
+      "for (int ${1:i} = 0; ${1:i} < ${2:n}; ${1:i}++) {",
+      "    ${3}",
+      "}"
+    ],
+    "description": "Java for loop"
+  },
+
+  "C++ Boilerplate": {
+    "prefix": "cppmain",
+    "body": [
+      "#include <iostream>",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "    ${1}",
+      "    return 0;",
+      "}"
+    ],
+    "description": "C++ basic template"
+  },
+
+  "Python Main": {
+    "prefix": "pymain",
+    "body": [
+      "def main():",
+      "    ${1}",
+      "",
+      "if __name__ == \"__main__\":",
+      "    main()"
+    ],
+    "description": "Python main function template"
+  }
+}
