@@ -1,0 +1,13 @@
+{
+  "Python Main": {
+    "prefix": "pymain",
+    "body": [
+      "def main():",
+      "    ${1}",
+      "",
+      "if __name__ == \"__main__\":",
+      "    main()"
+    ],
+    "description": "Python main template"
+  }
+}
