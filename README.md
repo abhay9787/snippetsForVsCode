@@ -1,26 +1,5 @@
-# 🚀 VS Code User Snippets Pack
-
-A personal collection of useful VS Code user snippets for faster development.
-
-## 📌 Languages Included
-
-- HTML
-- CSS
-- JavaScript
-- Java
-- Python
-- C++
-
----
-
-## ⚡ Installation Guide
-
-1. Open VS Code
-2. Press `Cmd + Shift + P` (Mac) or `Ctrl + Shift + P` (Windows)
-3. Search for: **Snippets: Configure User Snippets**
-4. Select the language (or create a new snippet file)
-5. Paste the corresponding JSON file content
-6. Save the file
+2. Paste the JSON files inside this folder.
+3. Restart VS Code.
 
 ---
 
@@ -28,22 +7,24 @@ A personal collection of useful VS Code user snippets for faster development.
 
 | Prefix | Description |
 |--------|------------|
-| html5  | HTML boilerplate |
+| html5 | HTML boilerplate |
 | flexcenter | Flexbox center layout |
 | clg | Console.log shortcut |
 | jmain | Java main method template |
 | pymain | Python main template |
 | cppmain | C++ main template |
+| cmain | C main template |
+| cfor | C for loop |
 
 ---
 
-## 🎯 Purpose
+## 🎯 Why Use This?
 
-This snippet pack is designed to:
-- Speed up development
-- Improve productivity
+- Save time
+- Improve coding speed
 - Reduce repetitive typing
-- Help students and beginners
+- Helpful for students & beginners
+- Good setup for placement preparation
 
 ---
 
@@ -51,4 +32,4 @@ This snippet pack is designed to:
 
 **Abhay Sharma**
 
-If you find this helpful, consider ⭐ starring the repo.
+If you find this helpful, consider ⭐ starring the repository.
